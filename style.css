@@ -1,0 +1,212 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family: sans-serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    padding: 0 !important;
+    text-align: right;
+}
+.navbar-brand img
+{
+    height: 60px;
+    padding-left: 40px;
+
+}
+.nav
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px  !important;
+}
+.navbar-toggler
+{
+    outline: none !important
+}
+
+#banner
+{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color:#ffff;
+    padding-top: 5%;
+}
+.promo-title
+{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.play-btn img
+{
+    width:  45px;
+    margin: 20px;
+    background-color: #a517ba;
+
+}
+#banner a
+{
+    color: #fff;
+    text-decoration: none;
+}
+.img-fluid
+{
+    /* margin-right: 20px; */
+    position: relative;
+    right: 60px
+}
+.custom-image {
+    width: 400px; 
+    height: 600px;
+    margin-left: auto; 
+    display: block; 
+}
+/* Optional: Add custom styles for your section or container */
+#targets {
+    margin-top: 20px;
+    /* Add any other custom styles as needed */
+}
+
+/* Optional: Style the title */
+.title {
+    color: #333;
+    /* Add any other custom styles as needed */
+}
+
+/* Optional: Add custom styles for the columns */
+.column {
+    margin-bottom: 20px;
+    /* Add any other custom styles as needed */
+}
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Optional: Center items horizontally */
+}
+
+.title {
+    margin-right: 10px; /* Adjust as needed to create space between text and image */
+}
+
+.calculate-image {
+    max-width: 100%; /* Ensure the image doesn't exceed its container width */
+    height: auto; /* Maintain the aspect ratio */
+}
+.col-md-4 {
+    display: grid;
+    grid-template-rows: auto 1fr auto; /* Define three rows for h4, image, and input boxes */
+    align-items: center; /* Center items vertically */
+}
+
+.h4-container {
+    display: flex;
+    align-items: center; /* Center items vertically in h4-container */
+    justify-content: center; /* Center items horizontally in h4-container */
+    margin-bottom: 10px; /* Adjust as needed to create space between h4 and image */
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Align items vertically in the center */
+}
+.target-icon{
+    width: 70px;
+    height: 70px;
+
+}
+
+#footer {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: #fff;
+    padding: 30px 0;
+}
+
+.footer-img {
+    width: 100%;
+}
+
+.footer-box {
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.footer-box img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.footer-box .fa-map-marker,
+.footer-box .fa-phone,
+.footer-box .fa-envelope {
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: white;
+    display: inline-block;
+    line-height: 40px;
+}
+
+.footer-box h3 {
+    color: #a517ba;
+}
+
+.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+}
+
+.contact-list i {
+    margin-right: 8px;
+}
+.footer-box .form-control
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn-primary
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+
+
+
